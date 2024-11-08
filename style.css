@@ -10,9 +10,14 @@ h1{
   font-size: xx-large;
 }
 
-#increase-box{
+.flex-box{
   display: flex;
   align-items: center;
+}
+
+.image-text{
+  padding: 1rem;
+  max-width: 40rem;
 }
 
 #increase-button{
