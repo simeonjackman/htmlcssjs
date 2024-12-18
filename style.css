@@ -14,12 +14,36 @@
   max-width: 40rem;
 }
 
+.red-font{
+  color: red;
+}
+
+.funny-link{
+  background-color: white;
+  border: 1px solid black;
+}
+
+#start{
+  padding: 5rem;
+  font-family: "Courier New";
+}
+
+p{
+  font-family: "New Times Roman";
+}
+
 #increase-button{
   display: flex;
   padding: 1rem;
   margin: 1rem;
+  width: 30rem;
   font-size: xx-large;
+  /* transition: box-shadow .5s; */
 }
+
+/* #increase-button:hover{
+    box-shadow: inset 30rem 0 0 0 lightblue;
+} */
 
 #display{
   display: flex;
@@ -27,4 +51,8 @@
   padding: 1rem;
   margin: 1rem;
   font-size: xx-large;
+}
+
+body{
+  font-family: "Arial";
 }
