@@ -1,7 +1,12 @@
 .chapter-heading{
-  background-color: rgb(148, 148, 148);
-  padding: 1rem;
-  font-size: xx-large;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: .5rem;
+  font-size: 5rem;
+  text-align: center;
+}
+
+p{
+  background-color: grey;
 }
 
 .flex-box{
@@ -18,18 +23,22 @@
   color: red;
 }
 
-.funny-link{
-  background-color: white;
-  border: 1px solid black;
-}
-
 #start{
   padding: 5rem;
-  font-family: "Courier New";
 }
 
 p{
-  font-family: "New Times Roman";
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+}
+
+ul{
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+li{
+  margin:1rem;
 }
 
 #increase-button{
@@ -41,9 +50,9 @@ p{
   /* transition: box-shadow .5s; */
 }
 
-/* #increase-button:hover{
+#increase-button:hover{
     box-shadow: inset 30rem 0 0 0 lightblue;
-} */
+}
 
 #display{
   display: flex;
@@ -51,8 +60,33 @@ p{
   padding: 1rem;
   margin: 1rem;
   font-size: xx-large;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 body{
-  font-family: "Arial";
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  background-image: url('https://img.freepik.com/free-vector/repeat-dotted-geometric-texture-banner-fabric-design_1017-45254.jpg?semt=ais_hybrid&w=740&q=80');
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.zoom-image{
+  border: 1rem solid white;
+  border-radius:1rem;
+  transition: all 1s ease-out;
+}
+
+.zoom-image:hover{
+  border: 1rem solid darkblue;
+  transform:translateX(10rem);
+}
+
+.freestyle{
+  transition: all 2s ease-in-out;
+}
+/* 
+.freestyle:hover{
+  font-size: 2rem;
+  transform: rotate(1000deg);
+} */
